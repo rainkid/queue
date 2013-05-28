@@ -1,6 +1,6 @@
-####PHP 基于第三方KV存储的消息队列
+## PHP 基于第三方KV存储的消息队列
 
-##example for Memcache：
+#### example for Memcache：
 
       <?php
       echo "Memcache队列测试：<br />";
