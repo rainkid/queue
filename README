@@ -27,6 +27,7 @@ var_dump($temp);
 example for Tokyotrant: 
 
 ```php
+<?php
 $tt = new Memcache;
 $tt->connect('127.0.0.1', 1978);
 //实例化消息队列
@@ -39,12 +40,14 @@ $temp = $queue->get($name);
 var_dump($temp);
 $temp = $queue->status($name);
 var_dump($temp);
+?>
 ```
 
 #########################################
 example for Redis: 
 
 ```php
+<?php
 $redis = new Redis;
 $redis->connect('127.0.0.1', 1978);
 //实例化消息队列
@@ -57,4 +60,5 @@ $temp = $queue->get($name);
 var_dump($temp);
 $temp = $queue->status($name);
 var_dump($temp);
+?>
 ```
