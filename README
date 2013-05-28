@@ -2,7 +2,8 @@
 
 #### example for Memcache：
 
-      <?php
+```php
+<?php
       echo "Memcache队列测试：<br />";
       //实例化Memcache
       $mc = new Memcache;
@@ -19,3 +20,4 @@
       var_dump($temp);
       echo "<hr/>";
       ?>
+```
